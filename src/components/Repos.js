@@ -2,7 +2,7 @@ import React from 'react'
 
 const Repos = () => {
   return (
-    <div>Right is repos.</div>
+    <div>Right is Repos.</div>
   )
 }
 
