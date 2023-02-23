@@ -1,12 +1,11 @@
-import Search from './components/Search';
 
-import Repos from './components/Repos';
+import React from 'react';
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <Search />
-      <Repos />
+      <Dashboard/>
     </div>
   );
 }
