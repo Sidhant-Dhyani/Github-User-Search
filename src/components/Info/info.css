@@ -1,0 +1,43 @@
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+    background-color: rgb(247, 244, 244);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 2rem;
+    padding: 0rem 3rem;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+span{
+    width: 5vh;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.pink{
+    background-color: pink;
+    color: rgb(196, 94, 111);
+}
+
+.green{
+    background-color: rgb(148, 218, 148);
+    color: green;
+}
+
+.purple{
+    background-color: rgb(218, 107, 218);
+    color: purple;
+}
+
+.yellow{
+    background-color: rgb(233, 221, 197);
+    color: orange;
+}

@@ -1,7 +1,8 @@
 import React from "react";
-import { GithubContext, GithubProvider } from "../context/context";
+import { GithubContext, GithubProvider } from "../../context/context";
 import {GoRepo, GoGist} from "react-icons/go";
 import {FiUsers, FiUserPlus} from "react-icons/fi";
+import "./info.css";
 
 const UserInfo = () => {
   const { githubUser } = React.useContext(GithubContext);
@@ -40,20 +41,21 @@ const UserInfo = () => {
   ];
 
   return <section className="section">
-    {items.map((item)=>{
-        return <Item key={item.id} {...item}>{item}</Item>
-    })}
+        {items.map((item)=>{
+            return <Item key={item.id} {...item}>{item}</Item>
+        })}
   </section>;
 };
 
 const Item = ({icon, label, value, color}) => {
-    return <article>
-        <span>{icon}</span>
+    return <article className="item">
+        <span className={color}>{icon}</span>
         <div>
             <h3>{value}</h3>
             <p>{label}</p>
         </div>
     </article>
 }
+
 
 export default UserInfo;

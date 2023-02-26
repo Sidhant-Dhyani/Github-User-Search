@@ -1,0 +1,33 @@
+
+.Search-Container{
+    display: flex;
+    align-items: center;
+    padding: 0 10vw;
+    justify-content: space-between;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+
+.two{
+    
+}
+
+input{
+    outline-color: rgb(90, 190, 177);
+    border-color: transparent;
+}
+
+.btn{
+    background-color: rgb(78, 124, 143)
+    ;
+    color: white;
+    border-radius: 0.25rem;
+    border-color: transparent;
+}

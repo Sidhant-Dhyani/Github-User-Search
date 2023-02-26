@@ -1,10 +1,12 @@
 
 import React from 'react'
-import Info from '../components/Info'
+import Info from '../components/Info/Info'
+import Search from '../components/Search/Search'
 
 const Dashboard = () => {
   return (
     <main>
+      <Search/>
         <Info/>
     </main>
   )
