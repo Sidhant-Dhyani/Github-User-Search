@@ -1,0 +1,43 @@
+
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    margin: 1.5rem;
+    padding: 5%;
+    gap: 1rem;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+h4{
+    margin-top: 2px;
+    margin-bottom: -10px;
+}
+
+.other_info{
+    margin-top: 1.5rem;
+}
+
+.other_info p{
+    margin: 1px;
+}
+
+.blog_link{
+    border: solid 2px rgb(73, 110, 211);
+    color: rgb(73, 110, 211);
+    border-radius: 2rem;
+    padding: 1.5%;
+}
+
+.follow{
+    border: solid 2px blue;
+    text-align: center;
+    border-radius: 2rem;
+    height: 2rem;
+    text-decoration: none;
+}
