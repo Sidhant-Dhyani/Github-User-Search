@@ -2,7 +2,6 @@
 import React from 'react'
 import Card from './Card';
 import Followers from "../Followers/Followers";
-
 import "./User.css";
 
 const User = () => {
