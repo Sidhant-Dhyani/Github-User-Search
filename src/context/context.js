@@ -10,7 +10,7 @@ const GithubProvider = ({ children }) => {
   const [githubUser, setGithubUser] = useState(mockUser);
   const [followers, setFollowers] = useState(mockFollowers);
   return (
-    <GithubContext.Provider value={ {githubUser} }>
+    <GithubContext.Provider value={ {githubUser, followers} }>
       {children}
     </GithubContext.Provider>
   );

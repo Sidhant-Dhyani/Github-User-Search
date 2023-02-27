@@ -1,13 +1,15 @@
 
 import React from 'react'
 import Card from './Card';
-import Followers from "../Followers/Followers"
+import Followers from "../Followers/Followers";
+
 import "./User.css";
 
 const User = () => {
   return (
-    <section className='followers'>
+    <section className='card_follow'>
         <Card/>
+        <Followers/>
     </section>
   )
 }

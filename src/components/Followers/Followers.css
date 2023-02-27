@@ -1,0 +1,32 @@
+
+.followers{
+    background-color: white;
+    padding-top: 1rem;
+    margin: 1.25rem;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+article{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+}
+
+.followers_detail{
+    margin-top: 0.25rem;
+}
+
+.link{
+    margin: 1rem;
+}
+
+.followers_detail h4{
+    margin-bottom: 0.05rem;
+}

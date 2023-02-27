@@ -36,10 +36,10 @@ const Card = () => {
                 <MdLocationOn />
                 {location}
             </p>
-            <p className="blog_link" href={`https//${blog}`}>
+            <a className="blog_link" href={`https://${blog}`}>
                 <MdLink />
                 {blog}
-            </p>
+            </a>
         </div>
       </div>
       <div className="follow">

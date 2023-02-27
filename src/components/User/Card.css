@@ -23,8 +23,9 @@ h4{
     margin-top: 1.5rem;
 }
 
-.other_info p{
-    margin: 1px;
+.other_info p, a{
+    margin-top: 1rem;
+    text-decoration: none;
 }
 
 .blog_link{
@@ -37,7 +38,8 @@ h4{
 .follow{
     border: solid 2px blue;
     text-align: center;
+    padding-top: 2%;
     border-radius: 2rem;
     height: 2rem;
-    text-decoration: none;
 }
+
