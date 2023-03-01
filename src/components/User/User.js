@@ -7,8 +7,8 @@ import "./User.css";
 const User = () => {
   return (
     <section className='card_follow'>
-        <Card/>
-        <Followers/>
+      <Card/>
+      <Followers/>
     </section>
   )
 }
